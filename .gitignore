@@ -1,0 +1,9 @@
+# Chromium source
+chromium
+
+# Visual Studio Code
+*.code-workspace
+.vscode
+
+# out
+out/*
