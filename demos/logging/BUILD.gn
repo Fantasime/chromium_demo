@@ -1,12 +1,23 @@
 group("logging") {
   deps = [
     ":basic_logging",
+    ":verbose_logging",
   ]
 }
 
 executable("basic_logging") {
   sources = [
     "basic_logging.cc",
+  ]
+
+  deps = [
+    "//base",
+  ]
+}
+
+executable("verbose_logging") {
+  sources = [
+    "verbose_logging.cc",
   ]
 
   deps = [
