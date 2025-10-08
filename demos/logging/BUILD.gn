@@ -1,0 +1,15 @@
+group("logging") {
+  deps = [
+    ":basic_logging",
+  ]
+}
+
+executable("basic_logging") {
+  sources = [
+    "basic_logging.cc",
+  ]
+
+  deps = [
+    "//base",
+  ]
+}

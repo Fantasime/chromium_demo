@@ -1,0 +1,5 @@
+group("chromium_demo") {
+  deps = [
+    "//chromium_demo/demos/logging",
+  ]
+}
